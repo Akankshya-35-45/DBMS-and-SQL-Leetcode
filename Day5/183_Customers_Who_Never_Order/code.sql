@@ -1,4 +1,4 @@
-1.problem link: https://leetcode.com/problems/customers-who-never-order/description/
+1.problem link: https://leetcode.com/problems/delete-duplicate-emails/description/
 
 2.Solution:-
 DELETE p1
