@@ -1,3 +1,5 @@
+problem link: https://leetcode.com/problems/rising-temperature/
+
 1.
 SELECT w1.id
 FROM Weather w1
