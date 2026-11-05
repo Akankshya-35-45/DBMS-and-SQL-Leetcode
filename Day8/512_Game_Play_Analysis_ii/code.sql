@@ -1,4 +1,5 @@
-1.problem link:
+1.problem link: https://leetcode.com/problems/game-play-analysis-ii/
+    https://leetcode.ca/all/512.html
 
 2. Solution:
 SELECT
