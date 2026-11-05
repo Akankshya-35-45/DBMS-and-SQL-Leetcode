@@ -50,22 +50,6 @@ This repository documents my daily progress, SQL solutions, database concepts, a
 - **Focus:** DBMS fundamentals, practical SQL, and problem-solving
 - **Approach:** Learn, practise, document, and improve consistently
 
-## 📈 Progress Tracker
-
-| Milestone | Status |
-|---|---|
-| Day 001–030 | in progress |
-| Day 031–060 | ⏳ Upcoming |
-| Day 061–090 | ⏳ Upcoming |
-| Day 091–120 | ⏳ Upcoming |
-| Day 121–150 | ⏳ Upcoming |
-| Day 151–180 | ⏳ Upcoming |
-| Day 181–220 | ⏳ Upcoming |
-| Day 221–250 | ⏳ Upcoming |
-| Day 251–280 | ⏳ Upcoming |
-| Day 281–310 | ⏳ Upcoming |
-| Day 311–340 | ⏳ Upcoming |
-| Day 341–365 | ⏳ Upcoming |
 
 ## 💡 My Learning Philosophy
 
