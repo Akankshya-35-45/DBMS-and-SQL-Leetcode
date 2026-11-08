@@ -1,13 +1,13 @@
 1.problem link: https://leetcode.com/problems/managers-with-at-least-5-direct-reports/description/
 
 2.Solution:
-(a)SELECT m.name
+(a) Optimal solution using SELF JOIN
+SELECT m.name
 FROM Employee e
 JOIN Employee m
     ON e.managerId = m.id
 GROUP BY m.id, m.name
 HAVING COUNT(e.id) >= 5;
-
 
 (b)(using Subquery):
 SELECT name
@@ -20,17 +20,27 @@ WHERE id IN (
     HAVING COUNT(*) >= 5
 );
 
+(c)using GROUP BY:
+SELECT managerId, COUNT(*) AS total_reports
+FROM Employee
+WHERE managerId IS NOT NULL
+GROUP BY managerId;
 
+(d) using HAVING:
+SELECT managerId
+FROM Employee
+WHERE managerId IS NOT NULL
+GROUP BY managerId
+HAVING COUNT(*) >= 5;
+    
 3.Time and space complexity
 Let N be the number of rows in the Employee table.
 Complexity	Analysis
 Time	Typically O(N) expected for a hash-based join and grouping
 Space	O(N) for intermediate join/grouping data
-
 Actual execution depends on the database optimizer, indexes, and execution plan.
 
 4.Key SQL concepts learned today
-
 SELF JOIN- Joining a table with itself
 Aliases-	Using e and m for the same table
 GROUP BY-Grouping employees by manager
