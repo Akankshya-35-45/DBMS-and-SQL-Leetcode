@@ -20,13 +20,12 @@ WHERE id IN (
     HAVING COUNT(*) >= 5
 );
 
-(c)using GROUP BY:
+(c)using GROUP BY and HAVING:
 SELECT managerId, COUNT(*) AS total_reports
 FROM Employee
 WHERE managerId IS NOT NULL
 GROUP BY managerId;
 
-(d) using HAVING:
 SELECT managerId
 FROM Employee
 WHERE managerId IS NOT NULL
