@@ -16,25 +16,6 @@ This repository documents my daily progress, SQL solutions, database concepts, a
 - Learn normalization, indexing, transactions, and query optimization.
 - Develop practical database skills relevant to software development and AI/ML roles.
 
-## 📚 Learning Roadmap
-
-| Days | Topics |
-|---|---|
-| 001–030 | SQL basics: SELECT, WHERE, DISTINCT, ORDER BY, LIMIT |
-| 031–060 | Aggregate functions, GROUP BY, HAVING |
-| 061–090 | SQL joins and self joins |
-| 091–120 | Subqueries and nested queries |
-| 121–150 | CASE statements, NULL handling, string and date functions |
-| 151–180 | CTEs and set operations |
-| 181–220 | Window functions and ranking |
-| 221–250 | DBMS fundamentals, ER models, keys, and relationships |
-| 251–280 | Normalization, database design, and constraints |
-| 281–310 | Transactions, ACID properties, indexing, and views |
-| 311–340 | Advanced SQL, query optimization, and complex problems |
-| 341–365 | Revision, mixed SQL challenges, and interview preparation |
-
-*This roadmap is flexible and may evolve as I learn and practise.*
-
 
 ## 🛠️ Technologies and Platforms
 
